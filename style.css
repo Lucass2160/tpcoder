@@ -118,3 +118,24 @@ header .texto-header{
     text-align: justify;
 }
 
+.mouse{
+    cursor: pointer;
+}
+
+.texto-propiedades{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    margin-top: 8%;
+    height: 4px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.transicion{
+    transition: ,5;
+}
