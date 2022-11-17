@@ -1,85 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-        <title>Servicios</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
+    <title>Servicios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="../pages/propiedades.html">Propiedades</a>
-            <a href="../pages/servicios.html">Servicios</a>
-            <a href="../pages/contacto.html">Contacto</a>
-        </nav>
+      <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../pages/propiedades.html">Propiedades</a>
+        <a href="../pages/servicios.html">Servicios</a>
+        <a href="../pages/contacto.html">Contacto</a>
+      </nav>
 
-    
-        <section class="texto-header">
-            <h1>Nuestros servicios</h1>
-        </section>
+      <section class="texto-header">
+        <h1>Nuestros servicios</h1>
+      </section>
 
-
-        <div class="wave" style="height: 150px; overflow: hidden;">
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C149.99,150.00 372.17,-34.02 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: rgb(255, 255, 255);"></path>
-            </svg>
-        </div>
-
-
+      <div class="wave" style="height: 150px; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M0.00,49.98 C149.99,150.00 372.17,-34.02 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: rgb(255, 255, 255)"
+          ></path>
+        </svg>
+      </div>
     </header>
 
     <main>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quaerat.</h1>
+      <section class="texto-propiedades-2">
+        <h1 class="fs-1">PRINCIPALES SERVICIOS</h1>
+      </section>
 
-
-
-        <div>
-            
-        <div>
-            <table class="table table-sm">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Lautaro</td>
-                    <td>23</td>
-                    <td>0000</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Lucas</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
-                </tbody>
-              </table>
+      <section class="container">
+        <style type="text/css">
+          .scrollspy-example {
+            position: relative;
+            height: 500px;
+            margin-top: 0.5rem;
+            overflow: auto;
+          }
+        </style>
+        <nav id="navbar-scrollspy" class="navbar navbar-light bg-light px-3">
+          <a class="navbar-brand" href="#">Servicios</a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#fat">TASACIONES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mdo">VENTAS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >SECCIONES</a
+              >
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#one">SERVICIO UNO</a></li>
+                <li><a class="dropdown-item" href="#two">SERVICIO DOS</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#three">SERVICIO TRES</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div
+          data-bs-spy="scroll"
+          data-bs-target="#navbar-scrollspy"
+          data-bs-offset="0"
+          tabindex="0"
+          class="scrollspy-example"
+        >
+          <h4 id="fat">TASACIONES</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            corrupti perspiciatis distinctio, officia ipsam debitis animi hic?
+            Iusto autem est accusantium quas recusandae consectetur eligendi at
+            et praesentium placeat dignissimos, quasi ipsum neque explicabo non,
+            maxime nemo reprehenderit corporis doloribus amet ab omnis dolorum,
+            debitis ipsam? Nulla veritatis, fugiat cum possimus minima
+            reiciendis eos exercitationem numquam a officia sunt voluptatibus.
+            Ducimus et porro non necessitatibus quae possimus voluptate libero
+            ratione, iure sint! Aspernatur autem saepe doloribus perferendis eos
+            eaque quo ex. Reiciendis neque quidem odio, beatae, similique eaque
+            iusto voluptatem quae eveniet unde accusamus iure pariatur
+            consequatur distinctio qui error?
+          </p>
+          <h4 id="mdo">VENTAS</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            corporis esse fugiat alias, aut libero assumenda saepe neque
+            doloribus ducimus sit pariatur repudiandae sequi sed dolore culpa
+            vero itaque! Iure quos rerum odit, ducimus culpa quidem nisi
+            voluptas possimus accusantium iusto, harum hic vel? Unde illum, odit
+            repellendus impedit magni dolores. Minus sunt laboriosam quisquam
+            eligendi cumque aliquam quas pariatur minima ut ea odio ipsum
+            accusamus amet nostrum, consectetur ullam deleniti esse debitis
+            repellat harum nemo illum saepe. Molestias autem inventore libero
+            nam aliquam molestiae, aliquid temporibus magnam quod iste ut
+            laudantium, adipisci illo enim mollitia cupiditate reiciendis veniam
+            pariatur.
+          </p>
+          <h4 id="one">COMPROMISO</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            rem quidem ea exercitationem adipisci non a quaerat ducimus
+            reprehenderit officiis ad aliquid laborum tempora repellendus
+            cupiditate, perferendis officia inventore unde temporibus. Assumenda
+            iste maiores vitae ea quibusdam omnis vero porro doloremque. Dolore
+            officia cumque ad consectetur harum asperiores, expedita sit dolores
+            dolorum laboriosam laudantium dolor repellendus, tempora, aliquam
+            omnis quis itaque totam laborum quaerat. Iure tempora ab vero.
+            Doloribus maxime distinctio dignissimos alias est error incidunt
+            repudiandae. Tenetur incidunt cupiditate dolore, odio possimus ab
+            voluptatem minima! Odit non culpa ad fugit ab. Accusamus dicta
+            beatae rem, obcaecati corrupti aut quaerat!
+          </p>
+          <h4 id="two">VENDEMOS FAFA</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
+            asperiores unde illo labore, neque rerum. Dignissimos cum voluptatum
+            expedita recusandae ullam suscipit ipsam in perferendis porro error
+            autem nulla consequuntur delectus ipsa sint magnam voluptate
+            asperiores excepturi dolor, nisi perspiciatis? Consequatur
+            doloremque laudantium facere quae impedit nemo deleniti in delectus
+            recusandae enim neque officia molestiae voluptatibus sed ad, maxime
+            ratione? Fugit reprehenderit iusto voluptates, facilis, impedit
+            delectus quis eum praesentium, expedita qui hic fuga neque nobis. Et
+            ad necessitatibus illum blanditiis suscipit excepturi nobis autem
+            ipsam nulla laboriosam quasi fugiat aliquid quas dolorem, fugit
+            accusantium eaque ex neque atque ea!
+          </p>
+          <h4 id="three">POR AHI VAMOS</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum
+            quod autem temporibus, voluptatem doloribus optio alias deleniti
+            aperiam architecto sit rem accusamus voluptas eius facilis! Aperiam,
+            vitae laboriosam ullam doloremque iure ut ipsam blanditiis aliquid
+            non sunt quae voluptatem hic nisi cum. Nulla, incidunt harum
+            perferendis provident ad odit perspiciatis quis accusamus maiores
+            nam saepe at necessitatibus temporibus corrupti in voluptas, aut
+            fugit quod rerum est minima esse iste! Mollitia modi officia
+            temporibus repellat praesentium reiciendis quam officiis magnam
+            perspiciatis nulla nobis tenetur nesciunt reprehenderit autem
+            deserunt animi sed a quae, earum quasi! Expedita nisi nemo accusamus
+            nesciunt ipsum!
+          </p>
         </div>
-        
-        </div>
+      </section>
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
+
+          <a
+            href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link px-2 text-muted"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./servicios.html" class="nav-link px-2 text-muted"
+                >Servicios</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./contacto.html" class="nav-link px-2 text-muted"
+                >Contacto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./propiedades.html" class="nav-link px-2 text-muted"
+                >Propiedades</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link px-2 text-muted"
+                >Inicio</a
+              >
+            </li>
+          </ul>
+        </footer>
+      </div>
     </main>
-
-
-    
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
