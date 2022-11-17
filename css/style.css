@@ -55,19 +55,33 @@ header .texto-header h1 h2 .wave {
 }
 .container .title {
   color: red;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   margin-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-decoration: underline;
 }
-.container .title .container-servicios {
+.container .container-servicios {
   display: flex;
   justify-content: space-evenly;
+}
+.container .container-servicios .figure {
+  width: 200%;
+}
+
+.texto-propiedades-2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 .container-texto p {
   padding: 0px 0px 30px 15px;
-  font-weight: 300;
+  font-weight: 350;
   text-align: justify;
+  font-size: 20px;
 }
 .container-texto h3 {
   margin-bottom: 15px;
@@ -79,9 +93,8 @@ header .texto-header h1 h2 .wave {
   border-radius: 50%;
   display: inline-block;
   text-align: center;
-  width: 30px;
-  height: 30px;
-  padding: 1px;
+  width: 1.4em;
+  height: 1.4em;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
   margin-right: 7px;
 }
@@ -90,10 +103,18 @@ header .texto-header h1 h2 .wave {
   cursor: pointer;
 }
 
+.transicion {
+  transition: 0, 5s linear;
+}
+.transicion .transicion:hover {
+  transform: scale(2);
+}
+
 .texto-propiedades {
   display: flex;
   font-family: "Open Sans", sans-serif;
   text-decoration: underline;
+  font-size: 40px;
   margin-top: 8%;
   height: 4px;
   width: 100%;
