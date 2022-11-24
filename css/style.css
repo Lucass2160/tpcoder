@@ -22,9 +22,18 @@ header nav a nav > a:hover {
   text-decoration: none;
 }
 
+header .img-logo {
+  display: absolute;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+header .img-logo .imglogo {
+  height: 100px;
+}
+
 header .texto-header {
   display: flex;
-  height: 430px;
+  height: 400px;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -44,6 +53,10 @@ header .texto-header h1 h2 .wave {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.caruselimg {
+  display: flex;
 }
 
 .container {
@@ -68,6 +81,11 @@ header .texto-header h1 h2 .wave {
 }
 .container .container-servicios .figure {
   width: 200%;
+}
+@media screen and (max-width: 800px) {
+  .container .container-servicios .figure {
+    width: 0px;
+  }
 }
 
 .texto-propiedades-2 {
@@ -115,13 +133,17 @@ header .texto-header h1 h2 .wave {
   font-family: "Open Sans", sans-serif;
   text-decoration: underline;
   font-size: 40px;
-  margin-top: 8%;
+  margin-top: 2%;
   height: 4px;
   width: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+
+.caruselimg {
+  align-items: flex-start;
 }
 
 * {

@@ -25,7 +25,11 @@
 
             .figure{
                 width: 200%;
-            }
+                
+                @media screen and (max-width:800px){
+                    width: 0px;
+                    }
+                }
         
         }
     
@@ -89,7 +93,7 @@
     font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
     font-size: 40px;
-    margin-top: 8%;
+    margin-top: 2%;
     height: 4px;
     width: 100%;
     align-items: center;
@@ -100,3 +104,7 @@
 }
 
 
+
+.caruselimg{
+    align-items: flex-start;
+}
