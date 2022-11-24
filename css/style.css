@@ -18,8 +18,9 @@ header nav a {
   text-decoration: none;
   margin-right: 10px;
 }
-header nav a nav > a:hover {
-  text-decoration: none;
+header nav a:hover {
+  text-decoration: underline;
+  color: red;
 }
 
 header .img-logo {
@@ -53,10 +54,6 @@ header .texto-header h1 h2 .wave {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-.caruselimg {
-  display: flex;
 }
 
 .container {
@@ -121,11 +118,11 @@ header .texto-header h1 h2 .wave {
   cursor: pointer;
 }
 
-.transicion {
-  transition: 0, 5s linear;
+.card {
+  transition: all 0.3s ease-in-out;
 }
-.transicion .transicion:hover {
-  transform: scale(2);
+.card:hover {
+  transform: scale(1.035);
 }
 
 .texto-propiedades {
@@ -144,6 +141,22 @@ header .texto-header h1 h2 .wave {
 
 .caruselimg {
   align-items: flex-start;
+}
+
+.img-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.img-overlay::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 3.67%, rgba(0, 0, 0, 0) 15.8927%);
 }
 
 * {
